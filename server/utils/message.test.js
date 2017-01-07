@@ -16,7 +16,7 @@ describe('generateMessage', () => {
 describe('generateLocationMessage', () => {
     it('should generate correct location object', () => {
         it('should generate correct location object', () => {
-            var from = 'xyz',
+            var from = 'xyz';
             var latitude = 15;
             var longitude = 19;
             var url = 'http://www.google.com/maps?q=15=19';
